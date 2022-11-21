@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santa Cruiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+    <header id="desktop">
+        <h1>SANTA CRUIZ</h1>
+        <h2>Achetez votre nouveau vélo dès mainteant</h2>
+        <a href="#config" class="button" id="configure"><span>CONFIGURER</span></a>
+        <img src="img/raulxav-bike.svg" alt="vélo">
+    </header>
+
+    <main id="config">
+        <form action="#">
+            <fieldset id="client">
+                <legend>Coordonnées du client</legend>
+                <input type="text" name="name" id="name" placeholder="Nom">
+                <input type="text" name="firstname" id="firstname" placeholder="Prénom">
+                <input type="email" name="email" id="email" placeholder="email">
+                <input type="text" name="adresse" id="adresse" placeholder="Adresse">
+                <input type="text" name="city" id="city" placeholder="Ville">
+            </fieldset>
+
+            <fieldset id="options">
+                <legend>Options</legend>
+                <select required name="materiaux" id="materiaux">
+                    <option value="">-&gt; Matériaux &lt;-</option>
+                    <option value="alu">Aluminium</option>
+                    <option value="carbone">Carbone</option>
+                </select>
+                <select required name="roues" id="roues">
+                    <option value="">-&gt; Roues &lt;-</option>
+                    <option value="Enve">Enve</option>
+                    <option value="Bontrager">Bontrager</option>
+                    <option value="RaceFace">RaceFace</option>
+                </select>
+
+                <label>Derailleur</label>
+                <div>
+                    <input type="radio" value="electrique" name="derailleur" id="electrique">
+                    <label for="electrique">Electrique</label>
+                </div>
+
+                <div>
+                    <input type="radio" value="mecanique" name="derailleur" id="mecanique">
+                    <label for="mecanique">Mécanique</label>
+                </div>
+
+                <div>
+                    <label for="color">Couleur du cadre</label>
+                    <br>
+                    <input type="color" name="color" id="color">
+                </div>
+
+            </fieldset>
+
+            <fieldset id="livraison">
+                <label>Mode de livraison</label>
+                <div>
+                    <input type="radio" value="home" name="livraison" id="home">
+                    <label for="home">Domicile</label>
+                </div>
+                <div>
+                    <input type="radio" value="relais" name="livraison" id="relais">
+                    <label for="relais">Relais</label>
+                </div>
+                <div>
+                    <input type="radio" value="magasin" name="livraison" id="magasin">
+                    <label for="magasin">Magasin</label>
+                </div>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4320122.96153341!2d1.40405435489425!3d46.71364976606768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1668767010366!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </fieldset>
+
+            <input class="button" type="submit" value="COMMANDER">
+            <input class="button" type="reset" value="REINITIALISER">
+        </form>
+        <img src="img/raulxav-bike.svg" alt="vélo">
+
+        <p id="price">
+            <span id="priceValue"></span>€
+        </p>
+    </main>
+
+    <footer>
+        <p>Projet réalisé par Antton CHEVRIER, Axel HAKIL et Albin LAHITTE <br>
+        &copy; 2022</p>
+        <img id="w3c" src="img/w3c.png" alt="Checked by the W3C Validator">
+    </footer>
+</body>
+</html>
