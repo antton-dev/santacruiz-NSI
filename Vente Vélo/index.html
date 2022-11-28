@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <script src="javascript/js.js"></script>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+	    <div>
+	        <div id="bas">
+
+	            <h1 id="title">Santa Cruz</h1>
+	        
+	            <p id="achat">ACHETEZ VOTRE NOUVEAU VÉLO DÈS MAINTENANT</p>
+	            <a href="#configurer" id="config">CONFIGURER</a>
+	        
+	        </div> 
+	    </div>
+    </header>
+
+
+    <main id="configurer">
+        <form method="get" action="#">
+            <fieldset  id="acheteur">
+                <legend>Coordonnées du client</legend>
+                <input type="text" name="nom" id="nom" placeholder="Nom">
+                <input type="text" name="prenom" id="prenom" placeholder="Prénom">
+                <input type="email" name="email" id="email" placeholder="email">
+                <input type="text" name="adresse" id="adresse" placeholder="adresse">
+                <input type="text" name="ville" id="ville" placeholder="ville">
+            
+            </fieldset>
+            <fieldset id="option" > 
+            <legend>OPTIONS</legend>
+            <select name="cadre" id="cadre">
+                <option class="blue" value="aluminium">aluminium</option>
+                <option class="blue" value="carbone">carbone</option>
+            </select>
+            <select name="roues" id="roues">
+                <option class="blue"  value="Enve">Enve</option>
+                <option  class="blue" value="Bontrager">Bontrager</option>
+                <option class="blue" value="Raceface">Race Face</option>
+            </select>
+            
+            <input type="radio" name="derailleur" id="derailleur" value="électrique">
+            <label for="derailleur">électrique</label>
+            <input type="radio" name="derailleur" id="derailleur" value="mécanique">
+            <label for="derailleur">mécanique</label>
+            
+            <label for="color">Couleur</label>
+            <input type="color" name="color" id="color">
+            
+        </fieldset>
+        <fieldset id="livraison" >
+            <legend>Mode de livraison</legend>
+            <input value="domicile" type="radio" name="livraison" id="domicile">
+            <label for="domicile">Domicile</label>
+            <input value="magasin" type="radio" name="livraison" id="magasin">
+            <label for="magasin">Magasin</label>
+            <input value="relais" type="radio" name="livraison" id="relais">
+            <label for="relais">Point Relais</label>
+            <iframe src="https://www.google.com/maps/d/embed?mid=1dXV6YVXw7YkjL2K2g1F5ye0JjdIZK2A&ehbc=2E312F" width="640" height="480"></iframe>
+            
+        </fieldset>
+        <input type="reset" value="Annuler la commande">
+        <button type="submit" id="submit">COMMANDER</button>
+    </form>
+    
+    <aside>
+        <p><span id="price">555</span> €</p>
+    </aside>
+</main>
+
+<footer>
+    <p>
+        Projet réalisé par Antton CHEVRIER, Axel HAKIL et Albin LAHITTE
+        <br>
+        &copy; 2022
+    </p>
+</footer>
+
+</body>
+</html>
