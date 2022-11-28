@@ -1,0 +1,95 @@
+# README
+
+## id de couleurs pour l'image du velo :
+
+### background
+- #path3522
+- #rect6182
+- #rect6184
+- #rect6186
+- #rect6188
+- #rect6190
+- #rect6192
+- #rect6196
+- #rect6212
+- #rect6238
+- #rect6258
+- #path3740
+- #rect4448
+- #rect4450
+- #rect4452
+- #rect4456
+- #rect4458
+- #rect4460
+- #rect4504
+- #rect4454
+- #rect4502
+- #rect4500
+- #path4430
+- #path4432
+- #path4434
+- #path4438
+- #path4440
+- #path4442
+- #path4444
+- #path4462
+- #path4478
+- #path4480
+- #path4482
+- #path4484
+- #path4486
+- #path4488
+- #path4490
+- #path4492
+- #path4494
+- #path4496
+- #path4498
+- #path4506
+- #path4508
+- #path4510
+- #path4512
+- #path4514
+- #path4516
+- #path4436
+- #path4472
+- #path4466
+- #path4464
+- #path6198
+- #path6200
+- #path6202
+- #path6204
+- #path6206
+- #path6208
+- #path6210
+- #path6214
+- #path6216
+- #path6218
+- #path6220
+- #path6222
+- #path6224
+- #path6226
+- #path6228
+- #path6230
+- #path6232
+- #path6234
+- #path6236
+- #path6240
+- #path6242
+- #path6244
+- #path6246
+- #path6248
+- #path6250
+- #path6252
+- #path6254
+- #path6256
+- #path6260
+- #path7241
+
+
+
+
+### changed colors
+- #path2458
+- #path2484
+- #path2462
+- #path3276
