@@ -1,0 +1,19 @@
+body {
+    margin: auto;
+    font-family: 'poppins', sans-serif;
+    width: 70vw;
+    text-align: center;
+    background-color: #95eab7;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+svg {
+    max-width: 500px;
+    height: auto;
+}
+
+li {
+    list-style-type: none;
+}

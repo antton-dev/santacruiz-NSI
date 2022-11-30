@@ -1,0 +1,215 @@
+/* GENERAL */
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    background-color:#4eaa73a1;
+}
+
+main {
+    margin: auto;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+}
+
+sup {
+    cursor: help;
+}
+
+/*--- HEADER --- */
+header {
+    background-image: url("https://blog.manawa.com/wp-content/uploads/2018/04/mtb-downhill-2320x980.jpg");
+    background-position-x: 80%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.config{
+    display: inline-block;
+    padding:10px 0px;
+    width: 150px;
+    background-color: #50af76;
+    box-shadow: 10px 10px 0px #538540;
+    text-align: center;
+    font-weight: 500;
+    color: black;
+    font-size: larger;
+    text-decoration:none;
+    transition: box-shadow .2s ease;
+}
+
+.config:hover{
+    box-shadow: none;
+}
+
+#title{
+    color : white;
+    font-size: 70px;
+    font-weight: 800;
+    margin: auto;
+}
+
+#bas{
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+#achat{
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* --- FORMULAIRE --- */
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+form {
+    margin-top: 40px;
+}
+
+fieldset{
+    background-color:#9fe9b8 ;
+    border-color:#305c3f;
+    display: flex;
+    flex-direction: column;
+    min-height: 350px;
+    width: 42%;
+    min-width: 30%;
+}
+
+legend {
+    font-weight: 500;
+}
+
+
+#acheteur{
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 8px;
+    height: 40px;
+    border: 2px solid #000;
+    width: 70%;
+    background: transparent;
+} 
+
+input::placeholder {
+    color: #000;
+}
+
+input:invalid {
+    border-color: #d73131;
+}
+
+input[type="radio"] {
+    width: 17px !important;
+    height: 17px;
+    vertical-align: middle;
+}
+
+input[type='color'] {
+    width: 40px;
+    height: 40px;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.hidden {
+    display: none;
+}
+
+input:not(:placeholder-shown) + .hidden { /* Quand l'input est rempli , afficher le nom de l'input au dessus */
+    display: inline;
+    margin-left: 10px;
+    margin-bottom: -8px;
+    font-size: 11px;
+}
+
+#cadre{
+    background-color: #538540;
+    margin-bottom:40px ;
+
+}
+
+#roues{
+    background-color: #538540;
+}
+
+select {
+    width: 70%;
+    height: 40px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+option {
+    background-color: #50af76;
+}
+
+#livraison {
+    width: 90%;
+    min-height: fit-content;
+}
+
+iframe {
+    width: 100%;
+    display: none;
+}
+
+.btnForm {
+    border: none;
+    margin: 0 10px;
+}
+
+#buttons {
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+
+
+/* FOOTER */
+footer {
+    border-top: 1px solid #000;
+    width: 40vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#w3c {
+    width: 80px;
+    height: auto;
+}
+
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 871px) { /* taille fenetre < 871px */
+    fieldset {
+        width: 90%;
+    }
+
+    #title {
+        background: #6dd665c9;
+    }
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;800&display=swap" rel="stylesheet">
+    <script src="javascript/js.js" defer></script>
+    <meta charset="UTF-8">
+    <title>Santa Cruz - Achetez votre nouveau vélo dès maintenant</title>
+</head>
+<body>
+    <header>
+	    <div>
+	        <div id="bas">
+
+	            <h1 id="title">Santa Cruz</h1>
+	        
+	            <p id="achat">ACHETEZ VOTRE NOUVEAU VÉLO DÈS MAINTENANT</p>
+	            <a href="#configurer" class="config">CONFIGURER</a>
+	        
+	        </div> 
+	    </div>
+    </header>
+
+
+    <main id="configurer">
+        <form method="get" action="success.html">
+            <div class="box">
+                <fieldset  id="acheteur">
+                    <legend>Coordonnées du client</legend>
+
+                    <div class="inputBox">
+                        <input required class="inputsText_email" type="text" name="nom" id="nom" placeholder="Nom">
+                        <label class="hidden" id="label-nom" for="nom">Nom :</label>
+                    </div>
+                    <div class="inputBox">
+                        <input required class="inputsText_email" type="text" name="prenom" id="prenom" placeholder="Prénom">
+                        <label class="hidden" id="label-prenom" for="prenom">Prénom : </label>
+                    </div>
+                    <div class="inputBox">
+                        <input required class="inputsText_email" type="email" name="email" id="email" placeholder="email">
+                        <label class="hidden" id="label-email" for="email">Email : </label>
+                    </div>
+                    <div class="inputBox">
+                        <input required class="inputsText_email" type="text" name="adresse" id="adresse" placeholder="adresse">
+                        <label class="hidden" id="label-adresse" for="adresse">Adresse : </label>
+                    </div>
+                    <div class="inputBox">
+                        <input required class="inputsText_email" type="text" name="ville" id="ville" placeholder="ville">
+                        <label class="hidden" id="label-ville" for="ville">Ville : </label>
+                    </div>
+                    
+                </fieldset>
+                <fieldset id="option" > 
+                    <legend>OPTIONS</legend>
+                    <label for="cadre">Cadre</label>
+                    <select required name="cadre" id="cadre">
+                        <option value="">-- Cadre --</option>
+                        <option value="aluminium">aluminium</option>
+                        <option value="carbone">carbone</option>
+                    </select>
+                    <label for="roues">Roues</label>
+                    <select required name="roues" id="roues">
+                        <option value="">-- Roues --</option>
+                        <option  value="Enve">Enve</option>
+                        <option  value="Bontrager">Bontrager</option>
+                        <option value="Raceface">Race Face</option>
+                    </select>
+                    
+                    <label>Dérailleur</label>
+                    <div>
+                        <input required type="radio" name="derailleur" id="electrique" value="électrique">
+                        <label for="electrique">électrique</label>
+                    </div>
+
+                    <div>
+                        <input required type="radio" name="derailleur" id="mecanique" value="mécanique">
+                        <label for="mecanique">mécanique</label>
+                    </div>
+                    
+                    <label for="color">Couleur <sup title="cliquez sur le carré pour choisir la couleur du cadre">?</sup></label>
+                    <input type="color" name="color" id="color">
+                    
+                </fieldset>
+                <fieldset id="livraison" >
+                    <legend>Mode de livraison</legend>
+                    <div>
+                        <input class="radioButton" value="domicile"  type="radio" name="livraison" id="domicile">
+                        <label for="domicile">Domicile</label>
+                    </div>
+                        
+                    <div>
+                        <input class="radioButton" value="relais" type="radio" name="livraison" id="relais">
+                        <label for="relais">Point Relais</label>
+                    </div>
+                        
+                    <div>
+                        <input class="radioButton" value="magasin" type="radio" name="livraison" id="magasin">
+                        <label for="magasin">Magasin</label>
+                    </div>
+                    
+                    <iframe id="iframe" src="https://maps.geocod.io/embed/ldzp" title="Nos magasins partout en europe (et ailleurs)" width="640" height="600" style="border: none"> </iframe>
+                    
+                    </fieldset>
+                </div>
+            
+            <div id="buttons">
+
+                <input type="reset" class="config btnForm" value="ANNULER">
+                <button type="submit" class="config btnForm">COMMANDER</button>
+            </div>
+            </form>
+    
+</main>
+
+<footer>
+    <p>
+        Projet réalisé par Antton CHEVRIER, Axel HAKIL et Albin LAHITTE
+        <br>
+        &copy; 2022
+        <br>
+        <img id="w3c" src="img/w3c.png" alt="validé par le validateur">
+    </p>
+</footer>
+
+</body>
+</html>
